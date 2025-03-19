@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/menu_assigned_projects"
+        android:icon="@drawable/gavel_toolbar"
+        app:showAsAction="ifRoom"
+        android:title="@string/assigned_projecs_menu_item"
+        android:orderInCategory="1"
+        />
+
+    <item
+        android:id="@+id/menu_all_projects"
+        android:icon="@drawable/all_projects_icon"
+        app:showAsAction="ifRoom"
+        android:title="@string/all_projecs_menu_item"
+        android:orderInCategory="2"
+        />
+
+    <item
+        android:id="@+id/menu_timeline"
+        android:icon="@drawable/ic_calendar_clock_black_24dp"
+        app:showAsAction="ifRoom"
+        android:title="@string/timeline_menu_item"
+        android:orderInCategory="3"
+        />
+
+    <item
+        android:id="@+id/menu_chat"
+        android:icon="@drawable/ic_wechat_white_24dp"
+        app:showAsAction="ifRoom"
+        android:title="@string/chat_menu_item"
+        android:orderInCategory="4"
+        />
+
+    <item
+        android:id="@+id/menu_parking"
+        android:icon="@drawable/ic_parking_white_24dp"
+        app:showAsAction="ifRoom"
+        android:title="@string/parking_menu_item"
+        android:orderInCategory="5"
+        />
+</menu>

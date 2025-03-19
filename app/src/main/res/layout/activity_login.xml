@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    >
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/wollongon_logo"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id = "@+id/login_page_title"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "@string/login_page_title"
+        android:layout_below = "@+id/logo_image"
+        android:layout_centerHorizontal = "true"
+        />
+
+    <EditText
+        android:id = "@+id/login_code_editText"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_marginBottom="100dp"
+        android:hint="@string/login_hint"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_centerHorizontal = "true"
+        android:layout_below = "@+id/login_page_title"
+        android:singleLine="true"
+        />
+
+    <Button
+        android:id = "@+id/login_button"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "@string/Login"
+        android:layout_below="@id/login_code_editText"
+        android:layout_centerHorizontal = "true"
+        />
+
+</RelativeLayout>

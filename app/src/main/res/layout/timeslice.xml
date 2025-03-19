@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/card_margin"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="@dimen/card_album_radius">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/agenda_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/team_title_padding"
+                android:paddingRight="@dimen/team_title_padding"
+                android:paddingTop="@dimen/team_title_padding"
+                android:paddingBottom="@dimen/team_title_padding"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/team_title" />
+
+            <FrameLayout
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                >
+
+                <ImageView
+                    android:id="@+id/circle"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ellipse_3"
+                    android:paddingLeft="@dimen/team_title_padding"
+                    android:paddingRight="@dimen/team_title_padding"
+                    android:paddingTop="@dimen/team_title_padding"
+                    android:paddingBottom="@dimen/team_title_padding"
+                    />
+
+                <TextView
+                    android:id="@+id/time_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/team_title_padding"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/amPm_text"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/vote_count_padding_bottom"
+                    android:paddingLeft="@dimen/team_title_padding"
+                    android:paddingRight="@dimen/team_title_padding"
+                    android:textSize="@dimen/vote_count"
+                    android:textColor="@color/white"
+                    android:textStyle="italic"
+                    android:layout_gravity="center"
+                    />
+
+            </FrameLayout>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

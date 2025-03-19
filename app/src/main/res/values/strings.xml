@@ -1,0 +1,182 @@
+<resources>
+    <string name="app_name">TSMSJudge</string>
+    <string name="chat_and_parking"> Chat &amp; Parking </string>
+    <string name="projects_content_description">Go to Assigned Teams Page</string>
+    <string name="all_projects_content_description">Go to All Teams Page</string>
+    <string name="timeline_content_description">Go to Timeline Page</string>
+    <string name="mark_team_menu_item">Mark Team </string>
+    <string name="assigned_projecs_menu_item">Assigned Teams</string>
+    <string name="all_projecs_menu_item">All Teams</string>
+    <string name="timeline_menu_item">Timeline</string>
+    <string name="chat_menu_item">Chat</string>
+    <string name="parking_menu_item">Parking</string>
+    <string name="menu_item_view">View Team</string>
+    <string name="car_license_plate_number_textView">Car License Plate Number:</string>
+    <string name="car_license_plate_number_textEdit">Plate Number</string>
+    <string name="plate_source_textView">License Plate Source:</string>
+    <string name="plate_source_editText">City of Issue ex: Dubai, Abu Dhabi</string>
+    <string name="parking_button_text">Update</string>
+    <string name="Login">Login</string>
+    <string name="login_hint">Enter Login Code</string>
+    <string name="login_page_title">TSMS Judge</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logout_icon_text">Logout</string>
+    <string name="click_to_mark">Click to Mark Team</string>
+    <string name="click_to_view">Click to View Team</string>
+    <string name="innovation_originality_research">Innovation, originality, &amp; research:</string>
+    <string name="real_world_applicability_and_benefit">Real world applicability, &amp; benefit:</string>
+    <string name="integration_of_various_technologies_and_tools">Integration of various technologies &amp; tools:</string>
+    <string name="effectiveness_and_efficiency_of_various_results">Effectiveness &amp; efficiency of achieved results: </string>
+    <string name="product_demo_usability_and_interface">Product Demo: Usability &amp; interface: </string>
+    <string name="confirm_mark">Confirm Mark </string>
+    <string name="car_color_string">Car Color: </string>
+    <string name="car_owner_string">Owner Name: </string>
+    <string name="car_owner_string_hint">Your Name Here </string>
+    <string name="team_name_text">Team Name: </string>
+    <string name="project_name_text">Project Name: </string>
+    <string name="abstract_text">Project Abstract: </string>
+    <string name="team_members_text">Team Members: </string>
+    <string name="view_team_button">Go Back!</string>
+
+    <string name="welcome_text">
+        Welcome to the info page of the Assigned Teams page! \n
+    </string>
+
+    <string name="paragraph">
+        The Assigned Teams page displays the teams designated to you, the judge, by the Organizer of the event. \n
+        Please click on a team\'s card in order to mark the team according to the five categories, by dragging the scroller and assigning a numerical mark. \n
+        The voting procedures are conducted through two rounds: \n
+        \t &#8226; The first round determines which teams progress to the second round. \n
+        \t &#8226; Once the second round teams are confirmed by the organizer, you, the judge will be able to mark the newly progressed teams. \n
+    </string>
+
+    <string name="tabs_text">
+        The teams are split according to the category they compete in: \n
+    </string>
+
+    <string name="tabs_paragraph">
+        Swipe right or left on the teams display area in order to flip between teams assigned to each category \n
+        The category will be highlighted upon your selection \n
+
+    </string>
+
+    <string name="scroll_down_text">
+        Scroll from the top to refresh the assigned team: \n
+    </string>
+
+    <string name="scroll_down_paragraph">
+        The Organizer has the ability to assign and de-assigned teams to you, the judge. \n
+        In order to assure marking validity and correctness, please feel free to pull down from whatver tab you\'re in, to refresh the teams \n
+        The Refresh icon you\'ll see after pulling down looks something like this: \n
+    </string>
+
+    <string name="thank_you_text">
+        Thank you for downloading and using TSMS Judge!\n
+    </string>
+
+    <string name="thank_you_paragraph">
+        We, at Team One, developed a comprehensive Event Management System known as TSMS (Trade Show Management System) \n
+        We, Shamsudeen Abubakr, Mahdiyyah Juma, Mustafa Waleed AlSaadi, &amp; Teng Keng, would like to extend our gratitute for the people who empowered us to accomplish this CSCI321 Project!
+    </string>
+
+    <string name="welcome_text_all">
+        Welcome to the info page of the All Teams page! \n
+    </string>
+
+    <string name="paragraph_all">
+        The All Teams page displays all the teams participating in the event. \n
+        The teams have registered through the TSMS Website \n
+        Please click on a team\'s card in order to view the team\'s details such as: \n
+        \t &#8226; Team Name \n
+        \t &#8226; Project Name \n
+        \t &#8226; Project Abstract \n
+        \t &#8226; Team Members \n
+        \t &#8226; Project Image \n
+
+    </string>
+
+    <string name="tabs_text_all">
+        The teams are split according to the category they registered in: \n
+    </string>
+
+    <string name="tabs_paragraph_all">
+        Swipe right or left on the teams display area in order to views between teams to each category \n
+        The category will be highlighted upon your selection \n
+
+    </string>
+
+    <string name="scroll_down_text_all">
+        Scroll from the top to refresh teams: \n
+    </string>
+
+    <string name="scroll_down_paragraph_all">
+        In order to refresh the teams, please don\'t hesitate to pull down from your teams\' list \n
+        The Refresh icon you\'ll see after pulling down looks something like this: \n
+    </string>
+
+    <string name="welcome_text_timeline">
+        Welcome to the info page of the Timeline! \n
+    </string>
+
+    <string name="paragraph_timeline">
+        The Timeline displays the agenda for the day as specified by th event\'s Organizer. \n
+        As you, the judge, is able to see, the circle to the right of the screen encircles the time and the AM/PM format of said time \n
+        To your right, is the Agenda for that point in time \n
+    </string>
+
+    <string name="scroll_down_text_timeline">
+        Scroll from the top to refresh Timeline entries: \n
+    </string>
+
+    <string name="scroll_down_paragraph_timeline">
+        In order to refresh the Timeline, please don\'t hesitate to pull down from your teams\' list \n
+        The Refresh icon you\'ll see after pulling down looks something like this: \n
+    </string>
+
+    <string name="welcome_text_chat">
+        Welcome to the info page of Chat! \n
+    </string>
+
+    <string name="paragraph_chat">
+        The Chat allows the different personnel involved in the event to communicate with one another through their dedicated application \n
+        As you, the judge, you\'re able to chat with the main organizer of the event, as well as, other organizers invovled in the event. \n
+    </string>
+
+    <string name="welcome_text_parking">
+        Welcome to the info page of Parking! \n
+    </string>
+
+    <string name="paragraph_parking">
+        The Parking page allows you, the Judge, to input your car info, in order for you to be reserved an underground parking on the day of the event   \n
+        Please fill the fields, with the car you\'re going to be driving on the day of the event, as such: \n
+        \t &#8226; Car License Plate Number, as in the number on your car\'s license plate, no letters needed :) \n
+        \t &#8226; License Plate Source, as the city where your car is registered  \n
+        \t\t &#8227; If your car is not registered in a UAE city, please choose "Other"
+        \t &#8226; Car Color, please choose your car\'s color to the closest match from the list \n
+        \t &#8226; Owner name, Please enter your name  \n
+    </string>
+
+
+    <string-array name="city_array">
+        <item>Dubai</item>
+        <item>Abu Dhabi</item>
+        <item>Sharjah</item>
+        <item>Ajman</item>
+        <item>UAQ</item>
+        <item>RAK</item>
+        <item>Fujairah</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="car_color_array">
+        <item>White</item>
+        <item>Black</item>
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Green</item>
+        <item>Silver</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+    </string-array>
+</resources>

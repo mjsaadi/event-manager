@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bar_layout"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_title"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            />
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_gravity="fill_vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            >
+
+            <TextView
+                android:id="@+id/car_license_plate_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/car_license_plate_input"
+                android:layout_alignBottom="@+id/car_license_plate_input"
+                android:layout_alignParentStart="true"
+                android:text="@string/car_license_plate_number_textView"
+                android:textSize="20sp"
+                />
+
+            <EditText
+                android:id="@+id/car_license_plate_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="27dp"
+                android:layout_toEndOf="@+id/car_license_plate_text"
+                android:clickable="true"
+                android:focusable="true"
+                android:hint="@string/car_license_plate_number_textEdit"
+                android:inputType="number"
+                android:maxLines="1"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/car_source_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/car_license_plate_input"
+                android:layout_marginTop="25dp"
+                android:text="@string/plate_source_textView"
+                android:textSize="20sp"/>
+
+            <Spinner
+                android:id="@+id/static_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/car_license_plate_input"
+                android:layout_alignTop="@+id/car_source_text"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/car_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/static_spinner"
+                android:layout_marginTop="45dp"
+                android:text="@string/car_color_string"
+                android:textSize="20sp"/>
+
+            <Spinner
+                android:id="@+id/car_color_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/car_color"
+                android:layout_alignStart="@+id/static_spinner"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id = "@+id/owner_name"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:text = "@string/car_owner_string"
+                android:layout_below = "@id/car_color_spinner"
+                android:layout_marginTop="45dp"
+                android:textSize="20sp"
+                />
+
+            <EditText
+                android:id="@+id/owner_name_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/owner_name"
+                android:layout_alignBottom="@+id/owner_name"
+                android:layout_alignStart="@+id/car_color_spinner"
+                android:clickable="true"
+                android:focusable="true"
+                android:hint="@string/car_owner_string_hint"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:textSize="20sp" />
+
+        <Button
+            android:id = "@+id/parking_button"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:text = "@string/parking_button_text"
+            android:layout_below="@id/owner_name_input"
+            android:layout_marginEnd="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="40dp"
+            android:textSize="20sp"
+            android:drawablePadding="20dp"
+            />
+
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:menu="@menu/menu_optionbar"
+        app:itemBackground="@color/darkBlue"
+        app:itemIconTint="@android:color/white"
+        app:itemTextColor="@android:color/white"
+        android:background="@color/darkBlue"
+        />
+</android.support.design.widget.CoordinatorLayout>

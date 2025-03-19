@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/logout_icon"
+        android:title="@string/logout_icon_text"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_logout_white_24dp"
+        android:orderInCategory="2"
+        />
+
+    <item
+        android:id="@+id/info_icon"
+        android:title="@string/logout_icon_text"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_information_variant_white_24dp"
+        android:orderInCategory="1"
+        />
+</menu>
